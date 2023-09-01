@@ -1,8 +1,12 @@
-nome="Camila Spakauskas"
-empresa='Foundever'
-qtde_funcionarios=4000
-mediaSalario=1555
-#ele é apenas leitura então nada vai acontecer visualmente
+nome=input("Digite um funcionario: ")
+empresa=input("Digite a empresa: ")
+qtde_funcionarios=int(input("Digite a quantidade de funcionarios: "))
+mediaSalario=float(input("Digite a média do salario: "))
 print(nome + " trabalha na empresa " + empresa)
 print("Possui: ", qtde_funcionarios, "funcionarios.")
 print("A média salarial é de: " + str(mediaSalario))
+#alterado para que o usuario que de as informações
+print("===============Verifique os tipos de dado abaixo:=======================")
+print("O tipo de dado da varial [nome] é: ", type(empresa))
+print("O tipo d dado da variavel [qtde_funcionarios] é: ", type(qtde_funcionarios))
+print("O Tipo de dado da variavel [mediaSalario] é: ", type(mediaSalario))
