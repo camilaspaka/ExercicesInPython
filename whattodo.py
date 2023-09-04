@@ -9,3 +9,4 @@ else:
     print("O paciente " + nome + " não possui atendimento prioritário e pode aguardar")
 
     #não sei porque mas o elif não ta funcionando...chateação 
+    #descobri o porque, resolvido ja
