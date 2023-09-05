@@ -1,7 +1,7 @@
 # Python Program to convert temperature in celsius to fahrenheit
 
 # change this value for a different result
-fahrenheit = 98
+fahrenheit = 72
 
 # calculate fahrenheit
 celsius = (fahrenheit - 32) / 1.8
