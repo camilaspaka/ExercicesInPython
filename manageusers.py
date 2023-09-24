@@ -16,7 +16,7 @@ usuarios[input("Digite o login: ").upper()]=[input("Digite o nome: ").upper(),
                   "<E> - Para Excluir um usuário" +
                   "<L> - Para Listar um usuário: ").upper()
 
-from Capitulo4_Dicionarios.Funcoes import *
+from funcoes2 import *
 usuarios={}
 opcao=perguntar()
 while opcao=="I" or opcao=="P" or opcao=="E" or opcao=="L":
