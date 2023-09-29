@@ -26,6 +26,8 @@ while opcao>0 and opcao<4:
             "<2> para persistir em arquivo"
             "<3> para exibir ativos armazenados: "))
     
+#parte do exercico  
+
     from Funcoes.Funcoes_Arquivos import *
 inventario={}
 opcao=chamarMenu()
@@ -36,4 +38,20 @@ while opcao>0 and opcao<4:
         persistir(inventario)
     elif opcao==3:
         print(exibir())
+    opcao = chamarMenu()
+
+    #outra parte, posso alterar a qualquer momento
+
+    from Funcoes.Funcoes_Arquivos import *
+inventario={}
+opcao=chamarMenu()
+while opcao>0 and opcao<4:
+    if opcao==1:
+        registrar(inventario)
+    elif opcao==2:
+        persistir(inventario)
+    elif opcao==3:
+        resultado = exibir()
+        for linha in resultado:
+            print(linha[2:-1])
     opcao = chamarMenu()
