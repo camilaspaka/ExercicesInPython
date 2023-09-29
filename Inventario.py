@@ -71,3 +71,16 @@ while opcao>0 and opcao<4:
         for linha in resultado:
             print(linha[linha.find(";")+1:-1])
     opcao = chamarMenu()
+
+    #solução de tudo acima
+
+    for linha in resultado:
+        separacao=linha[linha.find(";")+1:-1]
+        data=separacao[0:separacao.find(";")]
+        separacao = separacao[separacao.find(";")+1:-1]
+        descricao=separacao[0:separacao.find(";")]
+        departamento=linha[linha.rfind(";")+1:-1]
+        print("Data.........: ", data)
+        print("Descrição....: ", descricao)
+        print("Departamento.: ", departamento)
+opcao = chamarMenu()
