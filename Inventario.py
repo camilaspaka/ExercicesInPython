@@ -84,3 +84,12 @@ while opcao>0 and opcao<4:
         print("Descrição....: ", descricao)
         print("Departamento.: ", departamento)
 opcao = chamarMenu()
+
+#exercicio
+
+for linha in resultado:
+        lista=linha.split(";")
+        print("Data.........: ", lista[1])
+        print("Descrição....: ", lista[2])
+        print("Departamento.: ", lista[3])
+opcao = chamarMenu()
