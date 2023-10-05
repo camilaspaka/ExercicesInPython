@@ -16,9 +16,9 @@ while opcao>0 and opcao<3:
             json.dump(inventario, arq_json)
         print("JSON gerado!!!!")
     elif opcao==2:
-            with open("inventario_json.json", "r") as arq_json:
-    		 resultado = json.load(arq_json)
-    		 for chave, dado in resultado.items():
+         with open("inventario_json.json", "r") as arq_json:
+    		    resultado = json.load(arq_json)
+    	for chave, dado in resultado.items():
                 	print("Data.........: ", dado[0])
                 	print("Descrição....: ", dado[1])
                 	print("Departamento.: ", dado[2])
