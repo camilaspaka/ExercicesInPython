@@ -1,10 +1,8 @@
 import json
 with open("inventario_json.json", "r") as arq_json:
     inventario = json.load(arq_json)
-opcao=int(input("Digite: 
-<1> para registrar ativo"
-                      "
-<2> para exibir ativos armazenados: "))
+opcao=int(input("Digite: <1> para registrar ativo"
+                      "<2> para exibir ativos armazenados: "))
 while opcao>0 and opcao<3:
     if opcao==1:
         resp = "S"
@@ -23,7 +21,5 @@ while opcao>0 and opcao<3:
                 print("Descrição....: ", dado[1])
                 print("Departamento.: ", dado[2])
     opcao = int(input("Digite: "
-                      "
-<1> para registrar ativo"
-                      "
-<2> para exibir ativos armazenados: "))
+                      "<1> para registrar ativo"
+                      "<2> para exibir ativos armazenados: "))
