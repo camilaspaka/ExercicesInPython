@@ -1,4 +1,4 @@
-from Funcoes.Funcoes_JSON import *
+from Funcoes_JSON import *
 
 inventario = ler_arquivo("inventario_json.json")
 opcao=chamarMenu()
