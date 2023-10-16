@@ -1,4 +1,4 @@
-valor=6
-for n in range(1,11,1):
-
-    print(str(valor) + " x " + str(n) + " = " + str((valor*n)))
+tupla = list(enumerate(emails))
+for chave in range(0,len(tupla)):
+print("Email: ", tupla[chave][1])
+usuarios[tupla[chave]]=[input("Digite o nome"), input("Digite o nível")]
