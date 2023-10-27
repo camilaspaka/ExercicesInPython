@@ -6,4 +6,3 @@ while resposta=="S":
     inventario.append(int(input("Número Serial: ")))
     inventario.append(input("Departamento: "))
     resposta=input("Digite "S" para continuar: ").upper()
-]

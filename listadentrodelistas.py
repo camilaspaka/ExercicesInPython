@@ -8,7 +8,7 @@ while resposta == "S":
             int(input("Número Serial: ")),
             input("Departamento: ")]
   inventario.append(equipamento)
-  resposta=input("Digite "S" para continuar: ").upper()
+  resposta = input("Digite "S" para continuar: ").upper()
 
 #exibir dados do inventário
 for elemento in inventario:
