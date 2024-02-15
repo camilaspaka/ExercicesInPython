@@ -8,3 +8,5 @@ print("Hours worked: " + hours_worked)
 
 
 #thanks to the heavens
+#Algumas mudanças foram realizadas para a melhoria do código, então se estiver aqui vendo
+#o exercicio no caderno, vejo os comits anteriores
