@@ -6,3 +6,6 @@ hoursworked = input("Hours worked: ")
 print(hoursworked)
 
 hours_worked = input("How many hours did you work this week? ")
+
+
+#thanks to the heavens
