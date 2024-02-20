@@ -9,4 +9,4 @@ with open("pagina.html", "w") as pagina:
             pagina.write("<br>"+nome)
     pagina.write("</h3></body>")
 
-    #esse é uma das melhores descobertas que eu tive 
+    #esse é uma das melhores descobertas que eu tive
