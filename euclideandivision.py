@@ -16,3 +16,7 @@ print(euclidean_divisionn)
 
 exercicio = quotient, remainder = divmod(5, 2)
 print(exercicio)
+
+#mais um
+print(divmod(5.5, 2))
+print(divmod(6.0, 2))
