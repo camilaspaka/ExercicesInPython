@@ -7,5 +7,7 @@ euclidean_division(10, 3)
 euclidean_division(11, 3)
 0
 
+#divmod
+
 euclidean_divisionn = divmod(5, 2)
 print(euclidean_divisionn)
