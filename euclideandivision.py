@@ -11,3 +11,8 @@ euclidean_division(11, 3)
 
 euclidean_divisionn = divmod(5, 2)
 print(euclidean_divisionn)
+
+#another way
+
+exercicio = quotient, remainder = divmod(5, 2)
+print(exercicio)
