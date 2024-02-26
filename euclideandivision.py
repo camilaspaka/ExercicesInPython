@@ -5,3 +5,4 @@ def euclidean_division(x,y):
 
 euclidean_division(10, 3)
 euclidean_division(11, 3)
+0
