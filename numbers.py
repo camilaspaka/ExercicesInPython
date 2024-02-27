@@ -10,4 +10,9 @@ print(float_division)
 integer_division = 9 // -2
 print(integer_division)
 
+#exercise
+
+a = 17.5
+b = 5
+x = a + b - 9
 
