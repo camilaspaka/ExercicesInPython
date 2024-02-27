@@ -7,7 +7,7 @@ print(maths_operations)
 float_division = 12 / 3
 print(float_division)
 
-integer_division = 9 // -2
+integer_division = 9 // 1
 print(integer_division)
 
 #exercise
