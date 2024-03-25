@@ -35,7 +35,7 @@ input_field.pack(ipady=10)
 btns_frame = Frame(win, width=312, height=272.5, bg="lightgreen")
 btns_frame.pack()
 
-# Criando os códigos dos operadores aritmpeticos (+ - / *) e botões de limpar e ponto
+# Criando os códigos dos operadores aritmeticos (+ - / *) e botões de limpar e ponto
 clear = Button(btns_frame, text="C", fg="black", width=32, height=3, bd=0, bg="gray", cursor="hand2",
                command=lambda: btn_clear()).grid(row=0, column=0, columnspan=3, padx=1, pady=1)
 divide = Button(btns_frame, text="/", fg="black", width=10, height=3, bd=0, bg="gray", cursor="hand2",
